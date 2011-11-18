@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+<TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:lines="1"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="#272727"
+        android:background="@drawable/backrepeat"
+        android:text="Simple application that shows how to use marquee, with a long text.Simple application that shows how to use marquee, with a long text.Simple application that shows how to use marquee, with a long text.Simple application that shows how to use marquee, with a long text" 
+        android:gravity="top" 
+        android:layout_weight="0" android:height="10dip" android:layout_height="20dip"/>
+<SurfaceView 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:id="@+id/bouncing_ball_surface" android:layout_weight="10"/>
+
+</LinearLayout>

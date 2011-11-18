@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Hello World, Main!</string>
+    <string name="app_name">Google IO</string>
+    <color name="grey">#d9d9d9</color>
+    <color name="dark_grey">#b6b4b5</color>
+    <color name="second">#009a49</color>
+    <color name="day">#265897</color>
+    <color name="hour">#13acfa</color>
+    <color name="minute">#c0000b</color>
+</resources>
