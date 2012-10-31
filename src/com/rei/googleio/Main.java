@@ -57,7 +57,7 @@ public class Main extends Activity implements Callback, SensorListener {
 	private Random generator = new Random();
 	private int spacingX = 20;
 	private int spacingY = 20;
-	
+	//TEST
 	private String preDate = "";
 	private long firstTime = -1;
 	private Boolean blnUpdate = false;
